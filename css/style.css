@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.background{
+
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 0.1px;
+
+}
+
+.section{
+
+    background-image:linear-gradient(225deg, #47a8c669 0, #487e9354 25%, #3e515b5e 50%, #2b29276e 75%, #000f179a 100%)  ,url(../img/img_1.jpg);
+
+}
+
+.card{
+
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: black;
+    box-shadow: 3px 3px 12px rgb(0, 0, .3);
+    margin: calc(50vh - 250px);
+    margin: 20px auto;
+    border-radius: 10px;
+    background-image:linear-gradient(225deg, #47a9c6 0, #487e93 25%, #3e515b 50%, #2b2927 75%, #170300 100%);
+    
+}
+
+.card .img{
+
+    width: 100%;
+    height:160px ;
+    object-fit: cover;
+    border-radius:5px ;
+    
+}
+
+.container{
+
+    width: 80%;
+    height: 200px;
+    margin: 10px auto;
+    text-align: center;
+   
+}
+
+.card h1{
+color: white;
+
+}
+
+.card p{
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+
+/* LA PARTE DEL TEXTO */
+
+.text{
+
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.text h2{
+    padding: 0px 0px 5px 0px; 
+    border-bottom: 1px solid black;
+    width: 500px;
+    margin: auto;
+}
+
+.text p{
+
+    padding: 10px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
